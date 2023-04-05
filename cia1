@@ -1,10 +1,13 @@
 import numpy as np
+
 #no. of columns
 m=17
+
 #no. of rows
 n=18
 dp = np.zeros([18,17],dtype=int)
 print(dp)
+
 #seeing final size
 print(len(dp))  #rows
 print(len(dp[0]))  #columns
